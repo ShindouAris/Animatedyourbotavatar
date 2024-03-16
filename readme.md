@@ -9,7 +9,7 @@ Và đây là cách để khiến bot bạn có 1 chiếc avt động:
 - Đổi tên tệp .env.EXAMPLE thành .env và bỏ token của bạn vào đó
 
 - Chạy bot như cách bạn chạy bot python
-  Cách (Windows):
+ (Windows):
   
 ```py -m pip install -r .\requirements.txt ```
 - Sau khi chạy lệnh này xong hãy chạy:
