@@ -12,7 +12,7 @@ Và đây là cách để khiến bot bạn có 1 chiếc avt động:
   Cách (Windows):
   
 ```bash py -m pip install -r .\requirements.txt ```
-  sau khi chạy lệnh này xong hãy chạy:
+- Sau khi chạy lệnh này xong hãy chạy:
 ```bash py main.py```
   
 - Lệnh thay đổi avt bot sẽ là a?change_avt !
