@@ -10,9 +10,10 @@ Và đây là cách để khiến bot bạn có 1 chiếc avt động:
 
 - Chạy bot như cách bạn chạy bot python
   Cách (Windows):
-  ```bash py -m pip install -r .\requirements.txt ```
+  
+```bash py -m pip install -r .\requirements.txt ```
   sau khi chạy lệnh này xong hãy chạy:
-  ```bash py main.py```
+```bash py main.py```
   
 - Lệnh thay đổi avt bot sẽ là a?change_avt !
 
