@@ -38,8 +38,11 @@ BANNER = os.environ.get("BANNER_URL")
 
 @client.command(name="bnr")
 async def bnr(ctx: disnake.ApplicationCommandInteraction):
-     
-    banner_img_res = requests.get(BANNER)
+
+    if BANNER: 
+        banner_img_res = requests.get(BANNER)
+    else:
+        await ctx.send("Thiết lập ảnh banner trong tệp `.env` !!")
 
     if banner_img_res.status_code == 200:
         bas64_bnr = base64.b64encode(banner_img_res.content).decode("utf-8")
